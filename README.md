@@ -35,6 +35,7 @@ The game includes the following features:
 
 **Objective:** Event listeners added and basic elements rendered to canvas.
 
+- [] Create index HTML file
 - [] Create Main file
 - [] Create Game file
 - [] Create View file
