@@ -1,0 +1,28 @@
+html, body, div, canvas {
+  margin: 0;
+  border: 0;
+  outline: 0;
+  padding: 0;
+  color: inherit;
+  font: inherit;
+  text-align: inherit;
+  text-decoration: inherit;
+  box-sizing: inherit;
+  background: transparent;
+}
+
+img {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.container {
+  width: 800px;
+  margin: 0 auto;
+  margin-top: 20px;
+}
+
+#canvas {
+  background: yellow;
+}
