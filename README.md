@@ -15,12 +15,12 @@ This game is built using JavaScript with HTML5 Canvas and implements complete te
 The game includes the following features:
 
 
-- [] Subject and Obstacles for the basis of gameplay
-- [] Realistic collision logic
-- [] Scoring system that will persist high scores locally
-- [] Images that best represent Slader
-- [] Platform that integrates on both mobile and web devices
-- [] Full test suite
+- [ ] Subject and Obstacles for the basis of gameplay
+- [ ] Realistic collision logic
+- [ ] Scoring system that will persist high scores locally
+- [ ] Images that best represent Slader
+- [ ] Platform that integrates on both mobile and web devices
+- [ ] Full test suite
 
 ## Design Docs
 * [View Wireframes][views]
@@ -35,73 +35,73 @@ The game includes the following features:
 
 **Objective:** Event listeners added and basic elements rendered to canvas.
 
-- [] Create index HTML file
-- [] Create Main file
-- [] Create Game file
-- [] Create View file
-- [] Create corresponding spec testing files
-- [] Add event listeners for clicking on canvas
-- [] Implement basic draw logic
-- [] Add any necessary unit testing specs
+- [ ] Create index HTML file
+- [ ] Create Main file
+- [ ] Create Game file
+- [ ] Create View file
+- [ ] Create corresponding spec testing files
+- [ ] Add event listeners for clicking on canvas
+- [ ] Implement basic draw logic
+- [ ] Add any necessary unit testing specs
 
 ### Phase 2: Canvas and Subject (1.5 days)
 
 **Objective:** Subject rendered and can move around the canvas.
 
-- [] Create Subject file
-- [] Create corresponding spec testing file
-- [] Add event listeners for keydown and touch to move Subject
-- [] Add any necessary unit testing specs
+- [ ] Create Subject file
+- [ ] Create corresponding spec testing file
+- [ ] Add event listeners for keydown and touch to move Subject
+- [ ] Add any necessary unit testing specs
 
 ### Phase 3: Obstacles (0.5 days)
 
 **Objective:** Obstacles randomly rendered to the canvas.
 
-- [] Create Obstacle file
-- [] Create corresponding spec testing file
-- [] Implement collision logic for Obstacle and Brain
-- [] Add any necessary unit testing specs
+- [ ] Create Obstacle file
+- [ ] Create corresponding spec testing file
+- [ ] Implement collision logic for Obstacle and Brain
+- [ ] Add any necessary unit testing specs
 
 ### Phase 4: Obstacle Generation (1 day)
 
 **Objective:** Obstacles are generated in a way that makes the game progressively more difficult.
 
-- [] Build algorithm for determining rate and frequency of obstacles
-- [] Add any necessary unit testing specs
+- [ ] Build algorithm for determining rate and frequency of obstacles
+- [ ] Add any necessary unit testing specs
 
 ### Phase 5: Strings on Obstacles (0.5 days)
 
 **Objective:** Obstacles are connected to strings that can be cut by Subject.
 
-- [] Create String file
-- [] Build logic for creating strings attached to obstacles
-- [] Build logic for collision of Subject with String
-- [] Add any necessary unit testing specs
+- [ ] Create String file
+- [ ] Build logic for creating strings attached to obstacles
+- [ ] Build logic for collision of Subject with String
+- [ ] Add any necessary unit testing specs
 
 ### Phase 6: Testing and Review of core logic (5 days)
 
 **Objective:** Game play works as expected.  Slader team approves game basics.
 
-- [] Test gameplay end-to-end
-- [] User acceptance testing by Slader team
-- [] Resolve any issues that result from testing
+- [ ] Test gameplay end-to-end
+- [ ] User acceptance testing by Slader team
+- [ ] Resolve any issues that result from testing
 
 ### Phase 7: Imagery (5 days)
 
 **Objective:** Game is given professional, clean look with Slader designs and images.
 
-- [] Backdrop is added
-- [] Subject and Obstacles are replaced with Slader designs
-- [] Background image is given parallax effect
-- [] Adjust game logic for handling images
+- [ ] Backdrop is added
+- [ ] Subject and Obstacles are replaced with Slader designs
+- [ ] Background image is given parallax effect
+- [ ] Adjust game logic for handling images
 
 ### Phase 8: Final testing and review (5 days)
 
 **Objective:** Game play works as expected.  Slader team approves final product.
 
-- [] Test gameplay end to end
-- [] User acceptance testing by Slader team
-- [] Resolve any issues that result from testing
-- [] Hand off finished product to Slader team
+- [ ] Test gameplay end to end
+- [ ] User acceptance testing by Slader team
+- [ ] Resolve any issues that result from testing
+- [ ] Hand off finished product to Slader team
 
 ### Bonus Features (TBD)
