@@ -4,16 +4,15 @@
 Holds logic for creating Game and View objects and starting game.
 
 ##### Functions:
-- `play`
 
 #### Web API's:
-- `addEventListener` for "DOM Content Loaded".  Set up other event listener after content is loaded to screen.
-- `addEventListener` for "click" on Canvas element.  Start game on click.
+- `addEventListener` for "DOM Content Loaded".  Create new Game and View objects.
 
 ## Game
 Holds logic for setting up and executing game.
 
 ##### Game Prototype:
+- `startGame`
 - `initializeObjects`
 - `step`
 - `move`
@@ -23,6 +22,9 @@ Holds logic for setting up and executing game.
 - `removeObject`
 - `lose`
 - `resetGame`
+
+#### Web API's:
+- `addEventListener` for "click" on Canvas element.  Start game on click.
 
 ## View
 Holds logic for how game information will be rendered to the screen.
