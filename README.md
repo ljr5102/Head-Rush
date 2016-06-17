@@ -35,23 +35,23 @@ The game includes the following features:
 
 **Objective:** Event listeners added and basic elements rendered to canvas.
 
-- [ ] Create index HTML file
-- [ ] Create Main file
-- [ ] Create Game file
-- [ ] Create View file
-- [ ] Create corresponding spec testing files
-- [ ] Add event listeners for clicking on canvas
-- [ ] Implement basic draw logic
-- [ ] Add any necessary unit testing specs
+- [x] Create index HTML file
+- [x] Create Main file
+- [x] Create Game file
+- [x] Create View file
+- [x] Create corresponding spec testing files
+- [x] Add event listeners for clicking on canvas
+- [x] Implement basic draw logic
+- [x] Add any necessary unit testing specs
 
 ### Phase 2: Canvas and Subject (1.5 days)
 
 **Objective:** Subject rendered and can move around the canvas.
 
-- [ ] Create Subject file
-- [ ] Create corresponding spec testing file
-- [ ] Add event listeners for keydown and touch to move Subject
-- [ ] Add any necessary unit testing specs
+- [x] Create Subject file
+- [x] Create corresponding spec testing file
+- [x] Add event listeners for keydown and touch to move Subject
+- [x] Add any necessary unit testing specs
 
 ### Phase 3: Obstacles (0.5 days)
 
