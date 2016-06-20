@@ -59,8 +59,8 @@ The game includes the following features:
 
 - [x] Create Obstacle file
 - [x] Create corresponding spec testing file
-- [ ] Implement collision logic for Obstacle and Subject
-- [ ] Add any necessary unit testing specs
+- [x] Implement collision logic for Obstacle and Subject
+- [x] Add any necessary unit testing specs
 
 ### Phase 4: Obstacle Generation (1 day)
 
