@@ -39,7 +39,8 @@ Holds logic for how the Subject will interact.
 #### Subject Prototype:
 - `move`
 - `draw`
-- `changeVelocity`
+- `addVelocity`
+- `stopMotion`
 - `isCollidedWithBoundary`
 - `isCollidedWithString`
 - `isCollidedWithObstacle`
