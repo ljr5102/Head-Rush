@@ -57,9 +57,9 @@ The game includes the following features:
 
 **Objective:** Obstacles randomly rendered to the canvas.
 
-- [ ] Create Obstacle file
-- [ ] Create corresponding spec testing file
-- [ ] Implement collision logic for Obstacle and Brain
+- [x] Create Obstacle file
+- [x] Create corresponding spec testing file
+- [ ] Implement collision logic for Obstacle and Subject
 - [ ] Add any necessary unit testing specs
 
 ### Phase 4: Obstacle Generation (1 day)
