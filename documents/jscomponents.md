@@ -14,17 +14,16 @@ Holds logic for setting up and executing game.
 ##### Game Prototype:
 - `startGame`
 - `initializeObjects`
+- `handleObstacles`
+- `checkObjectCollisions`
+- `checkBoundaries`
 - `step`
 - `move`
-- `checkBoundaryCollision`
-- `checkObjectCollisions`
-- `cutObstacle`
-- `removeObject`
-- `lose`
-- `resetGame`
+- `cleanUp`
 
 #### Web API's:
 - `addEventListener` for "click" on Canvas element.  Start game on click.
+- `requestAnimationFrame` for continuous playing of game.
 
 ## View
 Holds logic for how game information will be rendered to the screen.
@@ -41,7 +40,7 @@ Holds logic for how the Subject will interact.
 - `draw`
 - `addVelocity`
 - `stopMotion`
-- `isCollidedWithBoundary`
+- `handleOutOfBounds`
 - `isCollidedWithString`
 - `isCollidedWithObstacle`
 
@@ -58,17 +57,27 @@ Holds logic for how the obstacles will interact.
 - `generateRandomObstacles`
 
 #### Obstacle Prototype:
+- `cutFromString`
 - `move`
 - `draw`
 - `fall`
+- `isCollidedWithPlatform`
 
 ## String
 Holds logic for how the String connected to the Obstacle will interact.
 
 #### String Prototype:
 - `move`
+- `cutMove`
 - `draw`
-- `cut`
+- `cutDraw`
+
+## Platform
+Holds logic for how the game platform will interact with other objects.
+
+#### Platform Prototype:
+- `move`
+- `draw`
 
 ## Utilities
 Holds logic for any required utility functions.
