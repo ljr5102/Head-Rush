@@ -66,17 +66,17 @@ The game includes the following features:
 
 **Objective:** Obstacles are generated in a way that makes the game progressively more difficult.
 
-- [ ] Build algorithm for determining rate and frequency of obstacles
+- [x] Build algorithm for determining rate and frequency of obstacles
 - [ ] Add any necessary unit testing specs
 
 ### Phase 5: Strings on Obstacles (0.5 days)
 
 **Objective:** Obstacles are connected to strings that can be cut by Subject.
 
-- [ ] Create String file
-- [ ] Build logic for creating strings attached to obstacles
-- [ ] Build logic for collision of Subject with String
-- [ ] Add any necessary unit testing specs
+- [x] Create String file
+- [x] Build logic for creating strings attached to obstacles
+- [x] Build logic for collision of Subject with String
+- [x] Add any necessary unit testing specs
 
 ### Phase 6: Testing and Review of core logic (5 days)
 
