@@ -24,5 +24,9 @@ img {
 }
 
 #canvas {
-  background: #A3F4FF;
+  /*background: #A3F4FF;*/
+  background: url(./images/bg.png);
+  background-size: cover;
+  background-position-y: -50px; 
+  border: 1px solid black;
 }
