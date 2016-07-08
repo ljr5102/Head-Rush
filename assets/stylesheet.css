@@ -1,4 +1,4 @@
-html, body, div, canvas {
+html, body, div, button, canvas {
   margin: 0;
   border: 0;
   outline: 0;
@@ -27,6 +27,6 @@ img {
   /*background: #A3F4FF;*/
   background: url(./images/bg.png);
   background-size: cover;
-  background-position-y: -50px; 
+  background-position-y: -50px;
   border: 1px solid black;
 }
