@@ -79,8 +79,20 @@ img {
 #canvas {
   /*background: #A3F4FF;*/
   /*background: url(./images/title.png);*/
-  background: url(./images/bg.png);
-  background-size: cover;
+  background: url(./images/bg_1_2_1.png);
+  -webkit-animation: backgroundScroll 40s linear infinite;
+  animation: backgroundScroll 40s linear infinite;
+  /*background-size: cover;*/
   /*background-position-y: -50px;*/
   border: 1px solid black;
+}
+
+@-webkit-keyframes backgroundScroll {
+  from {background-position: 0 0;}
+  to {background-position: -1600px 0;}
+}
+
+@keyframes backgroundScroll {
+  from {background-position: 0 0;}
+  to {background-position: -1600px 0;}
 }
