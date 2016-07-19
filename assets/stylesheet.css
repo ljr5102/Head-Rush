@@ -17,10 +17,63 @@ img {
   height: auto;
 }
 
+.group:after {
+  display: block;
+  content: "";
+  clear: both;
+}
+
 .container {
+  position: relative;
   width: 800px;
   margin: 0 auto;
   margin-top: 20px;
+}
+
+.container-img {
+  position: absolute;
+  width: 400px;
+  bottom: 45px;
+  left: 270px;
+  display: none;
+}
+
+.replay {
+  background: yellow;
+  position: absolute;
+  bottom: 45px;
+  width: 75px;
+}
+
+.score {
+  width: 155px;
+  border: 1px solid white;
+  border-radius: 20px;
+  position: absolute;
+  bottom: 8px;
+  left: 2px;
+  color: white;
+  display: none;
+}
+
+.score-label {
+  display: block;
+  text-align: left;
+  float: left;
+  padding-left: 10px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  font-size: 12px;
+  font-weight: bold;
+}
+
+.score-num {
+  display: block;
+  float: right;
+  padding-right: 10px;
+  padding-top: 6px;
+  padding-bottom: 6px;
+  font-size: 18px;
 }
 
 #canvas {
