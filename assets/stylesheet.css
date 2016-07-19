@@ -25,6 +25,7 @@ img {
 
 #canvas {
   /*background: #A3F4FF;*/
+  /*background: url(./images/title.png);*/
   background: url(./images/bg.png);
   background-size: cover;
   /*background-position-y: -50px;*/
