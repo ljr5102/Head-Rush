@@ -76,14 +76,41 @@ img {
   font-size: 18px;
 }
 
+.level {
+  width: 40px;
+  border: 1px solid white;
+  border-radius: 20px;
+  position: absolute;
+  bottom: 8px;
+  right: 2px;
+  color: white;
+  display: none;
+}
+
+.level-label {
+  display: block;
+  text-align: left;
+  float: left;
+  padding-left: 10px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.level-num {
+  display: block;
+  float: right;
+  padding-right: 10px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  font-size: 16px;
+}
+
 #canvas {
-  /*background: #A3F4FF;*/
-  /*background: url(./images/title.png);*/
   background: url(./images/bg_1_2_1.png);
   -webkit-animation: backgroundScroll 40s linear infinite;
   animation: backgroundScroll 40s linear infinite;
-  /*background-size: cover;*/
-  /*background-position-y: -50px;*/
   border: 1px solid black;
 }
 
