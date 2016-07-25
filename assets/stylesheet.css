@@ -38,6 +38,15 @@ img {
   display: none;
 }
 
+.intro-screen {
+  position: absolute;
+  top: 8px;
+  width: 400px;
+  /*bottom: 45px;*/
+  left: 198px;
+  /*display: none;*/
+}
+
 .replay {
   background: yellow;
   position: absolute;
@@ -54,6 +63,7 @@ img {
   left: 2px;
   color: white;
   display: none;
+  background: #494848;
 }
 
 .score-label {
@@ -85,6 +95,7 @@ img {
   right: 2px;
   color: white;
   display: none;
+  background: #494848;
 }
 
 .level-label {
@@ -108,10 +119,11 @@ img {
 }
 
 #canvas {
-  background: url(./images/bg_1_2_1.png);
+  background: url(./images/sky_1_2_1.png);
   -webkit-animation: backgroundScroll 40s linear infinite;
   animation: backgroundScroll 40s linear infinite;
   border: 1px solid black;
+  /*background-position-y: -125px;*/
 }
 
 @-webkit-keyframes backgroundScroll {
