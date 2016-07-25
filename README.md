@@ -1,4 +1,4 @@
-# Game - Slader
+# Head Rush
 
 [Play game here][live]
 
@@ -67,7 +67,7 @@ The game includes the following features:
 **Objective:** Obstacles are generated in a way that makes the game progressively more difficult.
 
 - [x] Build algorithm for determining rate and frequency of obstacles
-- [ ] Add any necessary unit testing specs
+- [x] Add any necessary unit testing specs
 
 ### Phase 5: Strings on Obstacles (0.5 days)
 
@@ -82,18 +82,18 @@ The game includes the following features:
 
 **Objective:** Game play works as expected.  Slader team approves game basics.
 
-- [ ] Test gameplay end-to-end
-- [ ] User acceptance testing by Slader team
-- [ ] Resolve any issues that result from testing
+- [x] Test gameplay end-to-end
+- [x] User acceptance testing by Slader team
+- [x] Resolve any issues that result from testing
 
 ### Phase 7: Imagery (5 days)
 
 **Objective:** Game is given professional, clean look with Slader designs and images.
 
-- [ ] Backdrop is added
-- [ ] Subject and Obstacles are replaced with Slader designs
-- [ ] Background image is given parallax effect
-- [ ] Adjust game logic for handling images
+- [x] Backdrop is added
+- [x] Subject and Obstacles are replaced with Slader designs
+- [x] Background image is given parallax effect
+- [x] Adjust game logic for handling images
 
 ### Phase 8: Final testing and review (5 days)
 
