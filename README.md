@@ -2,7 +2,7 @@
 
 [Play game here][live]
 
-[live]: http://
+[live]: http://www.louisrobinson.io/Head-Rush
 
 ## Minimum Viable Product
 
