@@ -33,8 +33,8 @@ img {
 .container-img {
   position: absolute;
   width: 400px;
-  bottom: 45px;
-  left: 270px;
+  bottom: 75px;
+  left: 187px;
   display: none;
 }
 
@@ -48,10 +48,11 @@ img {
 }
 
 .replay {
-  background: yellow;
   position: absolute;
-  bottom: 45px;
+  bottom: 155px;
+  left: 87px;
   width: 75px;
+  display: none;
 }
 
 .score {
