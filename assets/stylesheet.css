@@ -159,6 +159,8 @@ img {
 
 .my-score-num {
   float: right;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-weight: lighter;
   font-size: 28px;
 }
 
