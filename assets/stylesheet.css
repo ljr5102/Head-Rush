@@ -55,6 +55,10 @@ img {
   display: none;
 }
 
+.replay:hover {
+  cursor: pointer;
+}
+
 .score {
   width: 155px;
   border: 1px solid white;
