@@ -118,6 +118,14 @@ img {
   font-size: 16px;
 }
 
+.level-transition {
+  position: absolute;
+  width: 400px;
+  top: 5%;
+  left: 25%;
+  display: none;
+}
+
 #canvas {
   background: url(./images/sky_1_2_1.png);
   -webkit-animation: backgroundScroll 40s linear infinite;
