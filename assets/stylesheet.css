@@ -193,11 +193,10 @@ img {
 }
 
 #canvas {
-  background: url(./images/sky_1_2_1.png);
+  background: url(./images/background/sky_1_2_1.png);
   -webkit-animation: backgroundScroll 40s linear infinite;
   animation: backgroundScroll 40s linear infinite;
   border: 1px solid black;
-  /*background-position-y: -125px;*/
 }
 
 @-webkit-keyframes backgroundScroll {
