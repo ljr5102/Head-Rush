@@ -33,24 +33,22 @@ img {
 .container-img {
   position: absolute;
   width: 400px;
-  bottom: 75px;
-  left: 187px;
+  bottom: 9px;
+  left: 163px;
   display: none;
 }
 
 .intro-screen {
   position: absolute;
-  top: 8px;
-  width: 400px;
-  /*bottom: 45px;*/
-  left: 198px;
-  /*display: none;*/
+  width: 595px;
+  left: 12.8125%;
+  top: 1px;
 }
 
 .replay {
   position: absolute;
   bottom: 155px;
-  left: 87px;
+  left: 55px;
   width: 75px;
   display: none;
 }
@@ -134,8 +132,8 @@ img {
 .score-section {
   width: 185px;
   position: absolute;
-  top: 90px;
-  right: 45px;
+  top: 105px;
+  right: 25px;
   display: none;
 }
 
