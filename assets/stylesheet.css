@@ -105,6 +105,7 @@ img {
 .muted-x {
   font-size: 24px;
   font-family: "Helvetica Neue";
+  color: #494848;
   padding-left: 4px;
 }
 
@@ -193,7 +194,7 @@ img {
   text-transform: uppercase;
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-weight: bold;
-  letter-spacing: 5px;
+  letter-spacing: 4px;
   font-size: 12px;
   padding-top: 9px;
   padding-left: 4px;
