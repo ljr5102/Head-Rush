@@ -89,6 +89,25 @@ img {
   font-size: 18px;
 }
 
+.mute-section {
+  position: absolute;
+  left: 165px;
+  bottom: 10px;
+  display: none;
+  cursor: pointer;
+}
+
+.mute-button {
+  width: 20px;
+  float: left;
+}
+
+.muted-x {
+  font-size: 24px;
+  font-family: "Helvetica Neue";
+  padding-left: 4px;
+}
+
 .level {
   width: 40px;
   border: 1px solid white;
