@@ -153,12 +153,12 @@ img {
   position: absolute;
   top: 80px;
   right: 25px;
+  color: #494848;
   display: none;
 }
 
 .my-score-label {
   text-transform: uppercase;
-  /*font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;*/
   font-family: "HelveticaNeue-CondensedBold", "HelveticaNeueBoldCondensed", "HelveticaNeue-Bold-Condensed", "Helvetica Neue Bold Condensed", "HelveticaNeueBold", "HelveticaNeue-Bold", "Helvetica Neue Bold", "HelveticaNeue", "Helvetica Neue", 'TeXGyreHerosCnBold', "Helvetica", "Tahoma", "Geneva", "Arial Narrow", "Arial", sans-serif;
   font-weight: bold;
   font-size: 42px;
@@ -170,11 +170,6 @@ img {
 .score-actuals {
   padding-top: 5px;
   padding-bottom: 5px;
-}
-
-.score-arrow {
-  float: left;
-  width: 32px;
 }
 
 .my-score-num {
