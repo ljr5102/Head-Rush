@@ -1,4 +1,4 @@
-html, body, div, button, canvas {
+html, body, div, button, canvas, h2, ul, li {
   margin: 0;
   border: 0;
   outline: 0;
@@ -9,6 +9,10 @@ html, body, div, button, canvas {
   text-decoration: inherit;
   box-sizing: inherit;
   background: transparent;
+}
+
+ul, li {
+  list-style: none;
 }
 
 img {
@@ -105,7 +109,6 @@ img {
 .muted-x {
   font-size: 24px;
   font-family: "Helvetica Neue";
-  color: #494848;
   padding-left: 4px;
 }
 
@@ -210,6 +213,94 @@ img {
   width: 175px;
   margin: 0 auto;
 }
+
+.high-score-board {
+  display: none;
+  width: 700px;
+  box-shadow: 0px 0px 5px 2px gray;
+  position: absolute;
+  top: 5%;
+  left: 5%;
+  max-height: 90%;
+  overflow-y: scroll;
+  background: white;
+}
+
+.high-score-header {
+  font-family: "Helvetica Neue";
+  text-transform: uppercase;
+  font-weight: bold;
+  padding: 10px 20px;
+  font-size: 20px;
+}
+
+.close-high-score {
+  display: none;
+}
+
+.high-score-list {
+
+}
+
+.high-score-list > li:first-child {
+  border-bottom: 3px solid black;
+}
+
+.high-score-list-headers {
+  padding-left: 20px;
+}
+
+.high-score-list-headers > li {
+  float: left;
+  text-transform: uppercase;
+  font-family: "Helvetica Neue";
+  font-weight: bold;
+  font-size: 12px;
+}
+
+.high-score-list-header-rank {
+  width: 25%;
+}
+.high-score-list-header-date {
+  width: 25%;
+}
+.high-score-list-header-name {
+  width: 40%;
+}
+.high-score-list-header-score {
+  width: 10%;
+}
+
+.high-score-list-item {
+  padding-left: 20px;
+  border-bottom: 1px solid black;
+}
+
+.high-score-list > li:last-child > ul {
+  border-bottom: 0px;
+}
+
+.high-score-list-item > li {
+  float: left;
+  padding: 4px 0px;
+  font-family: "Helvetica Neue";
+  font-size: 14px;
+}
+
+.high-score-list-item-rank {
+  width: 25%;
+}
+.high-score-list-item-date {
+  width: 25%;
+}
+.high-score-list-item-name {
+  width: 40%;
+}
+.high-score-list-item-score {
+  width: 10%;
+}
+
+
 
 #canvas {
   background: url(./images/background/sky_1_2_1.png);
