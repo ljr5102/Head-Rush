@@ -218,23 +218,23 @@ img {
 
 .initials {
   float: left;
-  width: 58%;
+  width: 60%;
   background: white;
   font-size: 18px;
   padding: 7px 0px;
-  border: 1px solid #494848;
+  border: 2px solid #494848;
   color: #494848;
   text-align: center;
 }
 
 .submit-button {
   float: left;
-  width: 40%;
+  width: 37%;
   color: white;
   background: #494848;
   text-align: center;
   text-transform: lowercase;
-  padding: 10px 0px;
+  padding: 11px 0px;
   cursor: pointer;
 }
 
