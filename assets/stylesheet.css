@@ -214,6 +214,7 @@ img {
   width: 175px;
   margin: 0 auto;
   padding-bottom: 10px;
+  font-family: "Helvetica Neue";
 }
 
 .initials {
@@ -251,13 +252,13 @@ img {
   position: absolute;
   top: 5%;
   left: 5%;
-  height: 90%;
-  overflow-y: scroll;
+  max-height: 90%;
   background: white;
+  font-family: "Helvetica Neue";
 }
 
 .high-score-header {
-  font-family: "Helvetica Neue";
+  /*font-family: "Helvetica Neue";*/
   text-transform: uppercase;
   font-weight: bold;
   padding: 10px 20px;
@@ -266,8 +267,8 @@ img {
 
 .close-button {
   position: absolute;
-  right: 0.2%;
-  top: 0.2%;
+  right: -1.5%;
+  top: -1.5%;
   display: block;
   height: 5.5%;
   width: 2.859%;
@@ -277,7 +278,7 @@ img {
   color: white;
   text-align: center;
   font-size: 13px;
-  font-family: helvetica;
+  /*font-family: helvetica;*/
   padding-left: 1px;
 }
 
@@ -300,7 +301,7 @@ img {
 .high-score-list-headers > li {
   float: left;
   text-transform: uppercase;
-  font-family: "Helvetica Neue";
+  /*font-family: "Helvetica Neue";*/
   font-weight: bold;
   font-size: 12px;
 }
@@ -323,14 +324,14 @@ img {
   border-bottom: 1px solid black;
 }
 
-.high-score-list > li:last-child > ul {
+/*.high-score-list > li:last-child > ul {
   border-bottom: 0px;
-}
+}*/
 
 .high-score-list-item > li {
   float: left;
   padding: 4px 0px;
-  font-family: "Helvetica Neue";
+  /*font-family: "Helvetica Neue";*/
   font-size: 14px;
 }
 
@@ -346,6 +347,59 @@ img {
 .high-score-list-item-score {
   width: 10%;
 }
+
+.my-score-header {
+  /*font-family: "Helvetica Neue";*/
+  text-transform: uppercase;
+  font-weight: bold;
+  padding: 10px 20px;
+  font-size: 20px;
+}
+
+.my-score-list {
+  background: lightgray;
+}
+
+.my-score-list-header-rank {
+  width: 25%;
+}
+.my-score-list-header-date {
+  width: 25%;
+}
+.my-score-list-header-name {
+  width: 40%;
+}
+.my-score-list-header-score {
+  width: 10%;
+}
+
+.my-score-list-item {
+  padding-left: 20px;
+  border-bottom: 1px solid black;
+}
+
+.my-score-list-item > li {
+  float: left;
+  padding: 4px 0px;
+  /*font-family: "Helvetica Neue";*/
+  color: blue;
+  font-weight: bold;
+  font-size: 14px;
+}
+
+.my-score-list-item-rank {
+  width: 25%;
+}
+.my-score-list-item-date {
+  width: 25%;
+}
+.my-score-list-item-name {
+  width: 40%;
+}
+.my-score-list-item-score {
+  width: 10%;
+}
+
 
 
 
