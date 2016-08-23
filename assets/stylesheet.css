@@ -267,19 +267,19 @@ img {
 
 .close-button {
   position: absolute;
-  right: -1.5%;
-  top: -1.5%;
+  right: -2.5%;
+  top: -3.5%;
   display: block;
-  height: 5.5%;
-  width: 2.859%;
-  line-height: 160%;
-  border-radius: 10px;
+  height: 8.5%;
+  width: 4.859%;
+  line-height: 177%;
+  border-radius: 50%;
   background-color: black;
   color: white;
   text-align: center;
-  font-size: 13px;
-  /*font-family: helvetica;*/
-  padding-left: 1px;
+  font-size: 18px;
+  /* font-family: helvetica; */
+  padding-left: 2px;
 }
 
 .close-button:hover {
@@ -321,7 +321,7 @@ img {
 
 .high-score-list-item {
   padding-left: 20px;
-  border-bottom: 1px solid black;
+  border-bottom: 1px solid #ebebeb;
 }
 
 /*.high-score-list > li:last-child > ul {
@@ -332,6 +332,7 @@ img {
   float: left;
   padding: 4px 0px;
   /*font-family: "Helvetica Neue";*/
+  color: #494848;
   font-size: 14px;
 }
 
@@ -353,7 +354,7 @@ img {
   text-transform: uppercase;
   font-weight: bold;
   padding: 10px 20px;
-  font-size: 20px;
+  font-size: 12px;
 }
 
 .my-score-list {
@@ -382,7 +383,7 @@ img {
   float: left;
   padding: 4px 0px;
   /*font-family: "Helvetica Neue";*/
-  color: blue;
+  color: #5d9ceb;
   font-weight: bold;
   font-size: 14px;
 }
